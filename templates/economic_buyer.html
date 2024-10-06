@@ -1,0 +1,27 @@
+<!-- economic_buyer.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Economic Buyer</h1>
+    <p>The Economic Buyer is the key decision-maker who controls the budget and has the authority to make the final
+        purchasing decision.</p>
+
+    <h2 class="mt-4">Importance of Identifying the Economic Buyer</h2>
+    <ul>
+        <li>Ensures you're targeting the right person with decision-making power</li>
+        <li>Helps tailor your pitch to address their specific concerns and priorities</li>
+        <li>Increases the likelihood of closing the deal</li>
+    </ul>
+
+    <h2 class="mt-4">Strategies to Identify and Engage</h2>
+    <ol>
+        <li>Research the company's organizational structure</li>
+        <li>Ask your main contact about the decision-making process</li>
+        <li>Look for individuals with titles like CEO, CFO, or department heads</li>
+        <li>Prepare materials that address high-level business impact</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

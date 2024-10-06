@@ -1,0 +1,28 @@
+<!-- decision_criteria.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Decision Criteria</h1>
+    <p>Decision Criteria are the factors and requirements that the customer will use to evaluate and choose between
+        different solutions or vendors.</p>
+
+    <h2 class="mt-4">Why Understanding Decision Criteria is Crucial</h2>
+    <ul>
+        <li>Allows you to align your proposal with the customer's needs</li>
+        <li>Helps you differentiate your solution from competitors</li>
+        <li>Increases your chances of being selected as the preferred vendor</li>
+    </ul>
+
+    <h2 class="mt-4">Types of Decision Criteria</h2>
+    <ol>
+        <li>Technical requirements</li>
+        <li>Financial considerations (cost, ROI)</li>
+        <li>Implementation timeline</li>
+        <li>Support and maintenance</li>
+        <li>Vendor reputation and stability</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

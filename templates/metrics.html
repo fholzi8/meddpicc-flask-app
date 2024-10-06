@@ -1,0 +1,27 @@
+<!-- metrics.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Metrics</h1>
+    <p>Metrics are key performance indicators (KPIs) that measure the success of a deal. They help quantify the value
+        proposition and ROI for the customer.</p>
+
+    <h2 class="mt-4">Why Metrics Matter</h2>
+    <ul>
+        <li>Provide concrete evidence of potential value</li>
+        <li>Help align the solution with customer's business objectives</li>
+        <li>Support decision-making process with data-driven insights</li>
+    </ul>
+
+    <h2 class="mt-4">Key Considerations</h2>
+    <ol>
+        <li>Identify relevant metrics for the customer's industry and specific situation</li>
+        <li>Gather baseline metrics to show current state</li>
+        <li>Project improvements based on your solution</li>
+        <li>Use metrics to build a compelling business case</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

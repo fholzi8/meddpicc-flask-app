@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="mb-4">Scorecard für {{ project.name }}</h1>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Element</th>
+                <th scope="col">Fragen beantwortet</th>
+                <th scope="col">Score (1-10)</th>
+                <th scope="col">Kommentare</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for element in ['metrics', 'economic_buyer', 'decision_criteria', 'decision_process', 'paper_process',
+            'implications_of_pain', 'champion', 'competition'] %}
+            <tr>
+                <td>{{ element.replace('_', ' ').capitalize() }}</td>
+                <td>
+                    {% if project[element ~ '_question_answered'] %}
+                    Ja
+                    {% else %}
+                    Nein
+                    {% endif %}
+                </td>
+                <td>
+                    <span
+                        class="badge {% if project[element] >= 7 %}bg-success{% elif project[element] <= 4 %}bg-danger{% else %}bg-warning{% endif %}">
+                        {{ project[element] }}
+                    </span>
+                </td>
+                <td>{{ project[element ~ '_comments'] or ' ' }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-3">
+    <a href="{{ url_for('routes.index') }}" class="btn btn-primary">Zurück zur Übersicht</a>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Radar Chart for {{ project.name }}</h1>
+<div class="text-center">
+    <img src="{{ url_for('static', filename='images/radar_' ~ project.id ~ '.png') }}" alt="Radar Chart"
+        class="img-fluid" style="max-width: 600px; margin: 0 auto;">
+</div>
+<div class="mt-3 d-flex justify-content-between">
+    <a href="{{ url_for('routes.index') }}" class="btn btn-primary">Back to Overview</a>
+</div>
+{% endblock %}

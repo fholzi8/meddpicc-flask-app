@@ -1,0 +1,27 @@
+<!-- champion.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Champion</h1>
+    <p>A Champion is an internal advocate within the customer's organization who supports your solution and helps drive
+        the deal forward.</p>
+
+    <h2 class="mt-4">The Role of a Champion</h2>
+    <ul>
+        <li>Provides insider information about the decision-making process</li>
+        <li>Advocates for your solution to key stakeholders</li>
+        <li>Helps navigate internal politics and overcome objections</li>
+    </ul>
+
+    <h2 class="mt-4">Strategies for Developing and Leveraging a Champion</h2>
+    <ol>
+        <li>Identify potential champions early in the sales process</li>
+        <li>Provide them with compelling information and resources</li>
+        <li>Support their efforts to promote your solution internally</li>
+        <li>Maintain regular communication and offer assistance</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

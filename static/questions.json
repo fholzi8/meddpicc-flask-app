@@ -1,0 +1,42 @@
+{
+    "metrics": {
+        "question1": "Welche quantifizierbaren Ergebnisse erwartet der Kunde?",
+        "question2": "Wie wird der Erfolg des Projekts gemessen?",
+        "question3": "Welche KPIs sind entscheidend?"
+    },
+    "economic_buyer": {
+        "question1": "Wer trifft die finale Kaufentscheidung?",
+        "question2": "Hast du direkten Zugang zu dieser Person?",
+        "question3": "Unterstützt diese Person deine Lösung?"
+    },
+    "decision_criteria": {
+        "question1": "Was sind die wichtigsten Kriterien des Kunden?",
+        "question2": "Verstehst du, wie der Kunde bewertet?",
+        "question3": "Passt deine Lösung zu diesen Kriterien?"
+    },
+    "decision_process": {
+        "question1": "Wie sieht der formelle Entscheidungsprozess aus?",
+        "question2": "Wer ist an welchem Punkt beteiligt?",
+        "question3": "Kennst du die Fristen?"
+    },
+    "paper_process": {
+        "question1": "Welche Schritte sind nach der Entscheidung notwendig?",
+        "question2": "Wie lange dauert der Vertragsprozess?",
+        "question3": "Gibt es rechtliche Hürden?"
+    },
+    "implications_of_pain": {
+        "question1": "Welches Problem versucht der Kunde zu lösen?",
+        "question2": "Welche Konsequenzen hat dieses Problem?",
+        "question3": "Ist der Kunde sich der Dringlichkeit bewusst?"
+    },
+    "champion": {
+        "question1": "Gibt es einen starken Fürsprecher?",
+        "question2": "Wie engagiert ist der Champion?",
+        "question3": "Hat der Champion Einfluss?"
+    },
+    "competition": {
+        "question1": "Wer sind deine Hauptkonkurrenten?",
+        "question2": "Wie unterscheidet sich deine Lösung?",
+        "question3": "Hat der Kunde eine Präferenz für einen Wettbewerber?"
+    }
+}

@@ -1,0 +1,55 @@
+1. Metrics (Metriken)
+Fragen:
+Welche quantifizierbaren Ergebnisse erwartet der Kunde von deiner Lösung (z. B. Umsatzsteigerung, Kosteneinsparung, Zeitersparnis)?
+Welche KPIs oder Erfolgsmetriken sind für den Kunden entscheidend?
+Wie misst der Kunde den Erfolg nach der Implementierung?
+Bewertungskriterium: Klar definierte, messbare KPIs = Höherer Score.
+
+2. Economic Buyer (Wirtschaftlicher Käufer)
+Fragen:
+Wer ist die Person, die letztendlich die Kaufentscheidung trifft?
+Hast du direkten Zugang zu dieser Person?
+Ist diese Person auf deiner Seite und unterstützt deine Lösung?
+Bewertungskriterium: Direkter Kontakt und Unterstützung des wirtschaftlichen Käufers = Höherer Score.
+
+3. Decision Criteria (Entscheidungskriterien)
+Fragen:
+Was sind die wichtigsten Kriterien, die der Kunde bei der Auswahl einer Lösung berücksichtigt (z. B. Preis, Funktionalität, Skalierbarkeit)?
+Verstehst du, wie der Kunde die Lösungen bewertet?
+Ist deine Lösung gut auf die Entscheidungskriterien abgestimmt?
+Bewertungskriterium: Klarheit über die Entscheidungskriterien und gute Übereinstimmung = Höherer Score.
+
+4. Decision Process (Entscheidungsprozess)
+Fragen:
+Wie sieht der formelle Entscheidungsprozess des Kunden aus?
+Wer ist an diesem Prozess beteiligt, und in welcher Phase?
+Kennst du die Fristen und Milestones im Prozess?
+Bewertungskriterium: Genaue Kenntnis des Entscheidungsprozesses und der beteiligten Akteure = Höherer Score.
+
+5. Paper Process (Papierprozess)
+Fragen:
+Welche Schritte sind nach der Entscheidung notwendig, um die Verträge abzuschließen?
+Wie lange dauert der formale Beschaffungs- und Vertragsprozess beim Kunden?
+Gibt es rechtliche oder bürokratische Hürden, die den Prozess verzögern könnten?
+Bewertungskriterium: Kenntnis des Vertragsprozesses und der voraussichtlichen Dauer = Höherer Score.
+
+6. Identify Pain (Schmerzpunkte identifizieren)
+Fragen:
+Welches spezifische Problem versucht der Kunde zu lösen?
+Welche Konsequenzen hat dieses Problem für den Kunden (z. B. finanzielle Verluste, ineffiziente Prozesse)?
+Ist der Kunde sich der Dringlichkeit bewusst, das Problem zu lösen?
+Bewertungskriterium: Klare Identifizierung und Dringlichkeit des Schmerzes = Höherer Score.
+
+7. Champion (Fürsprecher)
+Fragen:
+Gibt es innerhalb der Organisation einen starken Fürsprecher für deine Lösung?
+Wie engagiert ist dieser Champion bei der Förderung deiner Lösung?
+Hat der Champion genügend Einfluss, um den Verkaufsprozess voranzutreiben?
+Bewertungskriterium: Ein engagierter und einflussreicher Champion = Höherer Score.
+
+8. Competition (Wettbewerb)
+Fragen:
+Wer sind deine Hauptkonkurrenten im Entscheidungsprozess des Kunden?
+Wie unterscheidet sich deine Lösung von den Wettbewerbern?
+Hat der Kunde bereits eine Präferenz für einen Wettbewerber gezeigt?
+Bewertungskriterium: Klare Wettbewerbsvorteile und Verständnis der Konkurrenz = Höherer Score.

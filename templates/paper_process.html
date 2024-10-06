@@ -1,0 +1,29 @@
+<!-- paper_process.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Paper Process</h1>
+    <p>The Paper Process refers to the administrative and legal steps required to finalize a deal, including contract
+        negotiations and approvals.</p>
+
+    <h2 class="mt-4">Why the Paper Process Matters</h2>
+    <ul>
+        <li>Ensures all legal and administrative requirements are met</li>
+        <li>Helps anticipate and prevent delays in closing the deal</li>
+        <li>Allows for better planning of resources and timelines</li>
+    </ul>
+
+    <h2 class="mt-4">Key Elements of the Paper Process</h2>
+    <ol>
+        <li>Contract drafting and review</li>
+        <li>Legal approval</li>
+        <li>Procurement process</li>
+        <li>Signature and execution</li>
+        <li>Payment terms and invoicing</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}
+

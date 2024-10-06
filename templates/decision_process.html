@@ -1,0 +1,27 @@
+<!-- decision_process.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Decision Process</h1>
+    <p>The Decision Process refers to the steps and procedures a company follows to make a purchasing decision.</p>
+
+    <h2 class="mt-4">Importance of Understanding the Decision Process</h2>
+    <ul>
+        <li>Helps you navigate the sales cycle more effectively</li>
+        <li>Allows you to anticipate and prepare for each stage</li>
+        <li>Enables you to identify and address potential roadblocks</li>
+    </ul>
+
+    <h2 class="mt-4">Common Stages in a Decision Process</h2>
+    <ol>
+        <li>Problem identification</li>
+        <li>Information gathering</li>
+        <li>Evaluation of alternatives</li>
+        <li>Purchase decision</li>
+        <li>Post-purchase evaluation</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

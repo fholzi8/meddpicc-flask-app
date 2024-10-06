@@ -1,0 +1,27 @@
+<!-- competition.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Competition</h1>
+    <p>Understanding the Competition involves analyzing other vendors or solutions that the customer might consider,
+        including the option to do nothing or maintain the status quo.</p>
+
+    <h2 class="mt-4">Importance of Analyzing Competition</h2>
+    <ul>
+        <li>Helps you position your solution more effectively</li>
+        <li>Allows you to anticipate and address potential objections</li>
+        <li>Enables you to highlight your unique value proposition</li>
+    </ul>
+
+    <h2 class="mt-4">Key Aspects of Competitive Analysis</h2>
+    <ol>
+        <li>Identify direct and indirect competitors</li>
+        <li>Analyze competitors' strengths and weaknesses</li>
+        <li>Understand how your solution differentiates</li>
+        <li>Prepare strategies to counter competitive offers</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

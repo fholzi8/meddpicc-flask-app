@@ -1,0 +1,33 @@
+<!-- templates/edit_questions.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Edit Questions</h1>
+
+<form method="POST" id="edit-questions-form">
+    {{ form.hidden_tag() }}
+
+    <div class="container">
+        {% for element, element_questions in questions.items() %}
+        <div class="card mb-3">
+            <div class="card-header">
+                {{ element.replace('_', ' ').capitalize() }}
+            </div>
+            <div class="card-body">
+                {% for q_key, question in element_questions.items() %}
+                <div class="form-group">
+                    <label for="{{ element }}_{{ q_key }}">
+                        {{ q_key.replace('question', 'Frage ') }}:
+                    </label>
+                    {{ form[element ~ '_' ~ q_key](class="form-control") }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="{{ url_for('routes.manage_questions') }}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %}

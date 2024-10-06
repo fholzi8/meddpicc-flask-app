@@ -1,0 +1,28 @@
+<!-- templates/questions.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Manage Questions</h1>
+
+<div class="container">
+    {% for element, element_questions in questions.items() %}
+    <div class="card mb-3">
+        <div class="card-header">
+            {{ element.replace('_', ' ').capitalize() }}
+        </div>
+        <div class="card-body">
+            <ul>
+                {% for q_key, question in element_questions.items() %}
+                <li>{{ question }}</li>
+                {% else %}
+                <li>No questions available for this element.</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<a href="{{ url_for('routes.edit_questions') }}" class="btn btn-primary mt-3">Edit Questions</a>
+<a href="{{ url_for('routes.index') }}" class="btn btn-secondary mt-3">Back to Projects</a>
+{% endblock %}

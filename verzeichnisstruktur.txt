@@ -1,0 +1,40 @@
+/meddpicc/
+│
+├── /static/
+│   ├── /css/ 
+│       └── styles.css              
+│   ├── /images/ 
+│       └── radar_1.png 
+│   ├── robots.txt   
+│   └── questions.json
+├── /templates/
+│       ├── base.html     
+│       ├── champion.html
+│       ├── competition.html
+│       ├── decision_criteria.html
+│       ├── decision_process.html
+│       ├── economic_process.html
+│       ├── edit_project.html
+│       ├── edit_questions.html
+│       ├── identify_pain.html
+│       ├── index.html
+│       ├── intro.html
+│       ├── metrics.html
+│       ├── new_project.html
+│       ├── paper_process.html
+│       ├── questions.html
+│       ├── questions.txt
+│       ├── radar.html
+│       └── scorecard.html  
+│      
+├── .env
+├── app.py
+├── config.py             
+├── extensions.py             
+├── forms.py 
+├── fragen.txt             
+├── models.py 
+├── README.md
+├── requirements.txt      
+├── routes.py                                           
+└── verzeichnisstruktur.txt      

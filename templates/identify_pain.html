@@ -1,0 +1,27 @@
+<!-- identify_pain.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Identify Pain</h1>
+    <p>Identifying Pain involves recognizing and understanding the customer's challenges, problems, and unmet needs that
+        your solution can address.</p>
+
+    <h2 class="mt-4">Importance of Identifying Pain</h2>
+    <ul>
+        <li>Allows you to tailor your solution to the customer's specific needs</li>
+        <li>Helps create urgency and motivation to make a change</li>
+        <li>Enables you to articulate the value of your solution more effectively</li>
+    </ul>
+
+    <h2 class="mt-4">Strategies for Identifying Pain</h2>
+    <ol>
+        <li>Ask probing questions during discovery calls</li>
+        <li>Research industry trends and common challenges</li>
+        <li>Analyze the customer's current processes and systems</li>
+        <li>Listen for pain points mentioned in conversations</li>
+    </ol>
+
+    <a href="{{ url_for('routes.intro') }}" class="btn btn-primary mt-4">Back to Overview</a>
+</div>
+{% endblock %}

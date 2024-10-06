@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Neues Projekt hinzufügen</h1>
+<form method="POST" action="{{ url_for('routes.new_project') }}">
+    {{ form.hidden_tag() }}
+
+    <div class="form-group">
+        {{ form.name.label }} {{ form.name(class="form-control") }}
+    </div>
+
+    {% for element in ['metrics', 'economic_buyer', 'decision_criteria', 'decision_process', 'paper_process',
+    'implications_of_pain', 'champion', 'competition'] %}
+    <div class="card mb-3">
+        <div class="card-header">
+            {{ element.replace('_', ' ').capitalize() }}
+        </div>
+        <div class="card-body">
+            {% for q_num in [1, 2, 3] %}
+            <div class="form-group">
+                {% set field_name = element ~ '_question' ~ q_num %}
+                {{ form[field_name].label }} {{ form[field_name](class="form-control") }}
+            </div>
+            {% endfor %}
+            <div class="form-group">
+                <label for="{{ element }}_slider">{{ element.replace('_', ' ').capitalize() }} Wert (1-10)</label>
+                <input type="range" class="form-control-range slider" id="{{ element }}_slider" name="{{ element }}"
+                    min="1" max="10" value="{{ form[element].data }}">
+                <output id="{{ element }}_output">{{ form[element].data }}</output>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <button type="submit" class="btn btn-primary">Speichern</button>
+</form>
+
+<!-- Hinzufügen des Slider-Skripts -->
+<script>
+    document.querySelectorAll('.slider').forEach(slider => {
+        const output = document.getElementById(slider.id.replace('slider', 'output'));
+        output.innerHTML = slider.value;
+
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+            const color = `linear-gradient(90deg, red ${(this.value - 1) * 10}%, green ${(this.value) * 10}%)`;
+            this.style.background = color;
+        };
+
+        // Initialisieren des Sliders mit Farbe
+        slider.style.background = `linear-gradient(90deg, red ${(slider.value - 1) * 10}%, green ${(slider.value) * 10}%)`;
+    });
+</script>
+{% endblock %}

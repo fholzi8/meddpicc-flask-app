@@ -1,0 +1,9 @@
+body {
+    padding-top: 20px;
+}
+.card-header {
+    background-color: #d1ecf1;
+    /* Hellblau */
+    color: #0c5460;
+    /* Dunkelblau für den Text */
+}
